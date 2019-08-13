@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.page_wrapper{
+    margin-top: 20px;
+}
+.page_wrapper .active{
+    color:#fac;
+}
+body{
+	font-family: 'Exo 2', sans-serif;
+}
+.burger{
+    border-radius:15px;
+    margin: 5px;
+    padding: 5px;
+    width: 500px;
+    border: 1px solid #000;
+    background-image:url(../pic/burger.jpg);
+    background-size:100% 100%
+}
+.order{
+    width: 400px;
+}
+.burger *{
+    padding: 5px;
+    letter-spacing: 1px;
+    color: #cfa;
+}
+.burgerHeader{
+    color: #ddd;
+}
+.burgerOptions li{
+    list-style-type: none;
+}
+#burgerSize{
+    color:#fac;
+}
+.orderbox{
+    display:flex;
+    justify-content: center;
+}
+td{
+    border-radius:15px;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000;
+}
+td:nth-child(even){
+    width: 75px;
+}
